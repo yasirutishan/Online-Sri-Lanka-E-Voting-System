@@ -1,0 +1,143 @@
+
+/* * Base structure*/
+
+html,
+body {
+  color: #6F2C91;
+  text-align: center;
+  height: 100%;
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  background-image: url("../img/bimage.jpg");
+  background-size: 100% 100%, cover;
+  background-repeat: no-repeat;
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fsin{
+	color: #777777;
+	font-size: 18px;
+}
+.fta{
+	color: #777777;
+	font-size: 14px;
+  font-weight: bold;
+}
+.fen{
+	color: #777777;
+	font-size: 17px;
+}
+
+.col-md-4 h3{
+	color: #C7017F;
+}
+.col-md-4 div{
+  height: 125px !important;
+}
+.col-md-6 h3{
+  color: #C7017F;
+}
+.col-md-6 div{
+  height: 80px !important;
+}
+/*Font Family*/
+@font-face {
+    font-family: 'fmmalithix';
+    src: url('fm-malithi-webfont.woff2') format('woff2'),
+         url('fm-malithi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#sinf{
+	font-family: 'fmmalithix';
+	font-weight: 600;
+}
+#taf{
+  font-weight: bold;
+}
+#enf{
+  font-weight: 600;
+}
+/* Padding for spacing */
+.inner {
+  padding: 30px 30px 0;
+}
+/*Cover*/
+.cover {
+  padding: 20px 20px 0px;
+}
+/*Footer*/
+.mastfoot {
+  color: #999;
+  color: rgba(255,255,255,1);
+}
+.btn-color {
+    color: #fff;
+    background-color: #C7017F;
+    background-image: linear-gradient(30deg, #6F2C91, #C7017F);
+    border-radius: 5px;
+    transition: all 0.15s linear;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    position: initial;
+    top: 0;
+  }
+  .mastfoot {
+    position: initial;
+    bottom: 0;
+  }
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 1024px){
+.col-md-4 div{
+  height: 125px !important;
+}
+}
+@media screen and (max-width: 768px){
+.col-md-4 div{
+  height: 60px !important;
+}
+}
+@media screen and (max-width: 550px){
+.col-md-4 div{
+  height: 60px !important;
+}
+}
+@media screen and (max-width: 320px){
+.col-md-4 div{
+  height: 60px !important;
+}
+}
